@@ -82,7 +82,7 @@ def load_key_data(cpm):
     data = cpm.get_key_data()
     console.print("[bold][red]========[/red][blue][ MOD MENU TABLE ][/blue][red]========[/red][/bold]")
     console.print("[bold green]Chat me:[/bold green][bold red] https://m.me/vinhaleee[/bold red]")
-    console.print(f"[bold green]Credits    [/bold green]: [bold yellow]{ (data.get('coins') if not data.get('is_unlimited') else 'Vinhle') }[/bold yellow].", end="\n\n")
+    console.print(f"[bold green]Credits    [/bold green]: [bold yellow]{ (data.get('coins') if not data.get('is_unlimited') else '⚜️🔱 ʀɪᴅᴡᴀɴメɢɢ ᴋɪɴɢ🔱⚜️') }[/bold yellow].", end="\n\n")
 
 def prompt_valid_value(content, tag, password=False):
     while True:
